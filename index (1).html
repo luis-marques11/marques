@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Marques Marketing Digital | Sua marca mais forte. Seu negócio mais visível.</title>
+<meta name="description" content="Criação de sites, gestão de redes sociais, tráfego pago e identidade visual.">
+<style>
+:root{--bg:#000e3a;--bg2:#021a58;--card:#0a2d82;--line:#2f7bff;--blue:#27a4ff;--cyan:#12c7ff;--text:#ffffff;--muted:#b6c9ee;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.55}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:rgba(0,14,58,.92);backdrop-filter:blur(8px);border-bottom:1px solid rgba(47,123,255,.25)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.5px}
+.brand small{display:block;color:var(--cyan);font-size:.6rem;letter-spacing:1.5px;line-height:1}
+.brand b{display:block;line-height:1.1}
+nav{display:flex;gap:20px;font-size:.92rem;color:var(--muted)}
+nav a:hover{color:#fff}
+.btn{display:inline-block;background:linear-gradient(135deg,var(--blue),#1769ff);color:#fff;font-weight:700;padding:14px 26px;border-radius:999px;box-shadow:0 8px 24px rgba(23,105,255,.45);transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.ghost{background:transparent;border:2px solid var(--line);box-shadow:none}
+.hero{padding:70px 0 80px;background:radial-gradient(ellipse at 70% 20%,#0a3aa8 0,var(--bg2) 40%,var(--bg) 80%)}
+.hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.tag{display:inline-block;background:rgba(39,164,255,.15);border:1px solid var(--line);color:var(--cyan);padding:6px 14px;border-radius:999px;font-size:.82rem;font-weight:600}
+h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.1;margin:18px 0}
+h1 span{color:var(--cyan)}
+.hero p{color:var(--muted);font-size:1.1rem;max-width:520px}
+.cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
+.art{display:flex;justify-content:center}
+.art svg{width:100%;max-width:340px;filter:drop-shadow(0 0 30px rgba(39,164,255,.55))}
+section{padding:70px 0}
+h2{font-size:clamp(1.6rem,3.5vw,2.3rem);margin:0 0 8px;text-align:center}
+.sub{text-align:center;color:var(--muted);margin:0 auto 40px;max-width:560px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.card{background:linear-gradient(160deg,var(--card),#06226a);border:1px solid rgba(47,123,255,.5);border-radius:18px;padding:26px}
+.card .ic{width:46px;height:46px;border-radius:12px;background:rgba(39,164,255,.18);display:grid;place-items:center;font-size:1.4rem;margin-bottom:14px}
+.card h3{margin:0 0 6px;font-size:1.1rem}
+.card p{margin:0;color:var(--muted);font-size:.95rem}
+.alt{background:var(--bg2)}
+.steps{counter-reset:s;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.step{position:relative;padding:26px;border-left:3px solid var(--blue);background:rgba(10,45,130,.35);border-radius:0 14px 14px 0}
+.step::before{counter-increment:s;content:"0" counter(s);color:var(--cyan);font-weight:800;font-size:1.6rem}
+.step h3{margin:4px 0 6px}
+.step p{margin:0;color:var(--muted)}
+.final{text-align:center;background:linear-gradient(135deg,#0a3aa8,#021a58)}
+.final p{color:var(--muted);max-width:520px;margin:0 auto 26px}
+.info{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:center;margin-top:28px;color:var(--muted)}
+footer{padding:26px 0;text-align:center;color:var(--muted);font-size:.85rem;border-top:1px solid rgba(47,123,255,.25)}
+.wa{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:6;background:#25d366;color:#fff;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.4);font-size:1.7rem}
+@media(max-width:760px){.hero .wrap{grid-template-columns:1fr}.art{order:-1}.art svg{max-width:200px}nav{display:none}.hero{padding-top:40px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="#topo"><svg width="38" height="30" viewBox="0 0 120 90" aria-hidden="true"><path d="M10 78V22h14l22 30 22-30h14v56H68V48L46 78 24 48v30z" fill="#fff"/><path d="M4 70C40 96 92 70 112 12l-8 8c-16 40-56 62-96 44z" fill="#27a4ff"/></svg><span><b>MARQUES</b><small>MARKETING DIGITAL</small></span></a>
+<nav><a href="#servicos">Serviços</a><a href="#como">Como funciona</a><a href="#contato">Contato</a></nav>
+<a class="btn" style="padding:9px 18px;font-size:.9rem" href="https://wa.me/5571996782938?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener">WhatsApp</a>
+</div></header>
+
+<main id="topo">
+<div class="hero"><div class="wrap">
+<div>
+<span class="tag">Marketing digital para o seu negócio</span>
+<h1>Sua marca mais forte. <span>Seu negócio mais visível.</span></h1>
+<p>Sites, redes sociais, anúncios e identidade visual para sua empresa ser encontrada e escolhida por mais clientes.</p>
+<div class="cta">
+<a class="btn" href="https://wa.me/5571996782938?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20gratuito." target="_blank" rel="noopener">Pedir orçamento grátis</a>
+<a class="btn ghost" href="#servicos">Ver serviços</a>
+</div>
+</div>
+<div class="art"><svg viewBox="0 0 240 190" role="img" aria-label="Logo Marques"><path d="M30 160V48h26l44 60 44-60h26v112h-28V98l-42 58-42-58v62z" fill="#fff"/><path d="M8 142C80 196 184 146 228 22l-14 14C182 112 100 160 24 126z" fill="#27a4ff"/><path d="M228 22l-34 6 20 22z" fill="#27a4ff"/></svg></div>
+</div></div>
+
+<section id="servicos"><div class="wrap">
+<h2>Nossos serviços</h2>
+<p class="sub">Tudo o que sua empresa precisa para crescer no digital, em um só lugar.</p>
+<div class="grid">
+<div class="card"><div class="ic">🌐</div><h3>Criação de sites profissionais</h3><p>Sites rápidos, bonitos e prontos para transformar visitantes em clientes.</p></div>
+<div class="card"><div class="ic">📱</div><h3>Gestão de redes sociais</h3><p>Conteúdo e presença constante no Instagram e no Facebook.</p></div>
+<div class="card"><div class="ic">📈</div><h3>Tráfego pago e anúncios online</h3><p>Anúncios que levam sua oferta para quem está pronto para comprar.</p></div>
+<div class="card"><div class="ic">🎨</div><h3>Identidade visual e artes digitais</h3><p>Logo, cores e peças gráficas que deixam sua marca memorável.</p></div>
+<div class="card"><div class="ic">🎯</div><h3>Landing pages para captação</h3><p>Páginas focadas em gerar contatos e orçamentos todos os dias.</p></div>
+<div class="card"><div class="ic">🚀</div><h3>Estratégia e posicionamento</h3><p>Planejamento de marketing para você se destacar da concorrência.</p></div>
+</div></div></section>
+
+<section id="como" class="alt"><div class="wrap">
+<h2>Como funciona</h2>
+<p class="sub">Um processo simples, do primeiro contato aos resultados.</p>
+<div class="steps">
+<div class="step"><h3>Planejamento</h3><p>Entendemos seu negócio, seu público e seus objetivos.</p></div>
+<div class="step"><h3>Estratégia</h3><p>Definimos os melhores canais e ações para o seu caso.</p></div>
+<div class="step"><h3>Resultados</h3><p>Executamos, acompanhamos os números e otimizamos sempre.</p></div>
+</div></div></section>
+
+<section id="contato" class="final"><div class="wrap">
+<h2>Conectando sua empresa ao próximo nível</h2>
+<p>Fale com a gente agora e receba um orçamento sem compromisso.</p>
+<a class="btn" href="https://wa.me/5571996782938?text=Ol%C3%A1!%20Quero%20falar%20com%20a%20Marques%20Marketing%20Digital." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+<div class="info"><span>📞 (71) 99678-2938</span><a href="https://instagram.com/marquesmarketingdigital" target="_blank" rel="noopener">📷 @marquesmarketingdigital</a></div>
+</div></section>
+</main>
+
+<footer><div class="wrap">© 2026 Marques Marketing Digital. Todos os direitos reservados.</div></footer>
+<a class="wa" href="https://wa.me/5571996782938" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+</body>
+</html>
